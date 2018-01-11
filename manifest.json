@@ -1,15 +1,15 @@
 {
     "author": "Guillermo Maiolo",
     "manifest_version": 2,
-    "name": "Remove W3Schools",
-    "description": "Remove W3Schools results in google searches",
+    "name": "Remove Pinterest",
+    "description": "Remove Pinterest results in google searches",
     "version": "3.0.12",
     "background": {
         "scripts": [ "scripts/bg.js" ], 
         "persistent": false
     },
     "browser_action": {
-        "default_title": "Remove W3Schools",
+        "default_title": "Remove Pinterest",
         "default_icon": {
             "19": "images/icon19_inactive.png",
             "38": "images/icon38_inactive.png"
