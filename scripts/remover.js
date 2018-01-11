@@ -1,9 +1,9 @@
 (function() {
-    var W3SchoolsRemover = {
+    var PinterestRemover = {
         currentUrl: {}, 
         constants: {
             queries: {
-                result_links: 'div.g:not([style*="display:none"]):not([style*="display: none"]) .r > a[href*="www.w3schools.com"]', 
+                result_links: 'div.g:not([style*="display:none"]):not([style*="display: none"]) .r > a[href*="www.pinterest.com"]', 
                 link_parent_node: '#rso div.g', 
                 main_google_node: 'main'
             }, 
@@ -13,8 +13,8 @@
                 active: 'active'
             }, 
             console: {
-                needs_to_be_updated: 'W3SchoolsRemover selectors need to be updated!', 
-                removed: 'W3Schools links were removed from this search.'
+                needs_to_be_updated: 'PinterestRemover selectors need to be updated!', 
+                removed: 'Pinterest links were removed from this search.'
             }, 
             observerConfig: { childList: true, subtree: true }
         }, 
@@ -76,6 +76,6 @@
         }
     };
 
-    W3SchoolsRemover.init();
+    PinterestRemover.init();
 
 })();
